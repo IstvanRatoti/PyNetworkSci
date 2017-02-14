@@ -1,0 +1,5 @@
+N random numbers
+compute mean and median
+plot convergence of mean and median with growing N ( use logarithmic scale)
+
+send code and plot
