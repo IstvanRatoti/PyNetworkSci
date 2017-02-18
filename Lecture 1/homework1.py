@@ -55,7 +55,7 @@ start = time.time()			# For run time purposes...was curious.
 
 with open(filename, "a") as file:
 	for num in (10,30,100,300,1000,3000,10000, 30000, 100000, 300000, 1000000, 3000000, 10000000):
-		print("Generation N = %d random numbers..." % num)
+		print("Generating N = %d random numbers..." % num)
 		meanrange, medianrange = makegroup(num)
 	
 		file.write("%8d\t%0.4g\t%0.4g\n" % (int(num), meanrange, medianrange))
