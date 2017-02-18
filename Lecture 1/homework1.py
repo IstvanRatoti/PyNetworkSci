@@ -58,6 +58,7 @@ with open(filename, "a") as file:
 		print("Generating N = %d random numbers..." % num)
 		meanrange, medianrange = makegroup(num)
 	
+		# The first column is N, the second is the mean range and the third is the median range.
 		file.write("%8d\t%0.4g\t%0.4g\n" % (int(num), meanrange, medianrange))
 
 print("Runtime: %s seconds" %(time.time() - start))		# Again, for run time purposes.
