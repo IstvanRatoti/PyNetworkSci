@@ -1,0 +1,4 @@
+h(x): # of times we see x in a list
+p.d.f. (probability density function): 	p(x) = h(x)/sum(x)[h(x)]
+c.d.f. (cumulated density function): 	c(x) = sum(-inf<x<x-1)[p(x)]
+c.c.d.f. (complementary c.d.f.): 	1 - c(x)
