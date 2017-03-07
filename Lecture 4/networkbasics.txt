@@ -1,0 +1,11 @@
+N - number of nodes
+	or V - vertices(vertex)
+
+E - number of edges
+	or L - links
+
+d - node degree
+
+<d>=2*E/N - average node degree
+
+p=2*E/N*(N-1)~2*E/N^2 - edge density, connection probability
