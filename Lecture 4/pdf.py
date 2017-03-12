@@ -24,15 +24,19 @@ def list2pdf(list):
 	for n in list:
 		# If we have not yet seen n.
 		if n not in h:
-			# Set the usage number to 0
+			# Set the usage number to 0.
 			h[n] = 0
 		
 		# In all cases, increment h[n].
 		h[n] += 1
 	
 	#print(h)	# Debug code
-	pdf = {}
+	pdf = {}	# Do we really need this?
 	
+	# We return a dictionary here, containing the probability
+	# density function. The keys are specific values, the values
+	# are the probabilities described in histogram.txt(Lecture 3).
+	# We use a compact iteration to create the list.
 	return{int(_):1.0*h[_]/len(list) for _ in h}
 
 scriptfile, outfile = sys.argv
