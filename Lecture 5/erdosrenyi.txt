@@ -1,0 +1,19 @@
+Network basics additions:
+Clustering coefficient: C(i) = 2n/(ki(ki-1))
+gráf komponens: azon csúcsok maximális halmaza, amelyek esetén bármelyik 2 egymásból elérhető
+a gráf élein keresztül.
+
+Classic random network:
+
+N nodes, E edges randomly - Gilbert definition
+
+N nodes, p probability of edges - Erdős-Rényi definition
+
+Probabilities: Binomial ->(N->inf) Poisson
+(Albert-Barabási: Network Science Chapter 2)
+
+Stirling formula for the Poisson:
+
+ln p(k) ~= k*ln <k> - k*ln k + ...
+
+In ER network: Ci = p = <k>/N
