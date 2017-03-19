@@ -17,7 +17,7 @@ comp2nodelist = {n:[n] for n in range(nodes)}
 node2neiset = {}
 
 # We assume that p = 2e/n^2 << 1, <k> = 2e/n.
-# enow us the current number of links in the network
+# enow is the current number of links in the network
 while enow < edges:
 	# Try to insert new link -> make sure A and B are not yet connected.
 		# Select new link -> select A!=B node.
